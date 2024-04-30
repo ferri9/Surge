@@ -3,6 +3,9 @@
 
 
 [URL Rewrite]
+^https:\/\/duckduckgo.com\/\?q=bm\+([^&]+).+ https://www.bing.com/images/search?q=$1 302
+^https:\/\/duckduckgo.com\/\?q=w\+([^&]+).+ https://en.wikipedia.org/wiki/$1 302
+^https:\/\/duckduckgo.com\/\?q=zgbk\+([^&]+).+ https://www.zgbk.com/ecph/search/result?SiteID=1&Alias=all&Query=$1 302
 ^https:\/\/duckduckgo.com\/\?q=bn\+([^&]+).+ https://www.britannica.com/search?query=$1 302
 ^https:\/\/duckduckgo.com\/\?q=b\+([^&]+).+ https://www.bing.com/search?q=$1 302
 ^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
